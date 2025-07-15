@@ -85,8 +85,6 @@ void setup() {
   nh.getHardware()->setBaud(460800);
   nh.initNode();
   nh.advertise(pub);
-
-  Serial.println("✅ MR82 雷达开始工作，等待数据...");
 }
 
 void loop() {
